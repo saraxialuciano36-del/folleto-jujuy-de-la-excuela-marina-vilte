@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Tesoros Históricos de Jujuy — Web</title>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<style>
+  :root{
+    --bg:#f4efe3;
+    --accent:#9a7b32;
+    --text:#3a2e1f;
+    --card:#fff9ef;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: "Georgia", serif;
+    background: var(--bg) url('https://blackpepper.travel/cache/2023-12/viajes-argentina-blackpepper-0074-galeria-2x-1008x671.jpg') repeat;
+    color:var(--text);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1.5;
+  }
+  header{text-align:center;padding:36px 20px 8px;}
+  h1{margin:0;font-size:2rem;color:var(--accent);letter-spacing:1px;text-shadow:1px 1px 2px rgba(0,0,0,0.15);}
+  p.lead{max-width:980px;margin:10px auto 26px;font-size:1rem;color:var(--text);}
+  .top-row{display:flex;gap:20px;align-items:flex-start;justify-content:center;flex-wrap:wrap;padding:0 16px 20px;}
+  .gallery{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;max-width:980px;width:100%;}
+  .gallery .thumb{background:var(--card);border-radius:12px;overflow:hidden;border:4px solid rgba(151,120,50,0.12);box-shadow:0 6px 18px rgba(0,0,0,0.12);width:320px;max-width:45vw;}
+  .gallery img{display:block;width:100%;height:auto}
+  .button-container{text-align:center;margin:22px 0 34px;}
+  .download-btn{display:inline-block;background: linear-gradient(135deg,#cba84a,#9a7b32);color:white;text-decoration:none;padding:12px 20px;font-size:1rem;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.18);}
+  .download-btn:hover{transform:scale(1.03)}
+  main{max-width:1100px;margin:0 auto;padding:12px}
+  .columns{display:grid;grid-template-columns: 1fr 1fr;gap:22px;}
+  .card{background: rgba(255,249,239,0.85);border-radius:12px;padding:18px;border:1px solid rgba(151,120,50,0.06);box-shadow: 0 10px 30px rgba(0,0,0,0.06);}
+  h2{color:var(--accent); margin-top:0; font-size:1.3rem}
+  .card img{width:100%;border-radius:12px;margin-top:10px;border:6px solid rgba(151,120,50,0.06);}
+  ul{padding-left:18px;margin:8px 0}
+  .full-width{margin-top:18px;display:grid;grid-template-columns: 1fr 360px;gap:22px;}
+  .map-card img{width:100%;border-radius:8px;display:block}
+  footer{text-align:center;font-style:italic;color:#6b5630;padding:26px 10px 60px;}
+  @media (max-width:900px){.columns{grid-template-columns: 1fr}.full-width{grid-template-columns: 1fr}.gallery .thumb{max-width:92vw}}
+  .muted{color:#6b5630;font-size:0.95rem}
+  .section-title{text-align:center;margin:18px 0 6px;font-weight:bold;color:var(--accent);font-size:1.05rem;}
+  .accordion{border-top:1px dashed rgba(0,0,0,0.06);margin-top:8px;padding-top:8px;}
+  .acc-btn{display:flex;align-items:center;justify-content:space-between;width:100%;background:transparent;border:0;padding:8px 0;font-family:inherit;font-size:1rem;cursor:pointer;color:var(--text);}
+  .acc-panel{display:none;padding:8px 0}
+  .acc-open + .acc-panel{display:block}
+  .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(151,120,50,0.08);color:var(--accent);font-weight:600}
+</style>
+</head>
+<body>
+<header><h1>Tesoros Históricos de Jujuy</h1></header>
+<p class="lead">Descubrí el corazón histórico de San Salvador de Jujuy: la Casa de Gobierno y la Catedral. Pasea por sus rincones, admirá su arquitectura y reviví los momentos que moldearon la provincia.</p>
+<section class="top-row">
+<div class="gallery" aria-label="Galería de imágenes del folleto">
+<figure class="thumb"><img src="1.png" alt="Folleto - portada y secciones" loading="lazy"></figure>
+<figure class="thumb"><img src="2.png" alt="Folleto - recomendaciones y mapa" loading="lazy"></figure>
+</div></section>
+<div class="button-container">
+<a class="download-btn" href="tesoros_historicos_de_jujuy.pdf" target="_blank" download>📥 Ver y descargar folleto (PDF)</a>
+<a class="download-btn" href="https://drive.google.com/file/d/1LpcBIHEiLKRyxqdr9Ggs1Kr4TOViPp94/view?usp=sharing" target="_blank">🌐 Ver versión web</a>
+<footer>“Descubrí la historia y belleza de nuestra provincia.” — Tesoros Históricos de Jujuy</footer>
+</body></html>
